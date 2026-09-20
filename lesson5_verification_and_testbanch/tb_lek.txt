@@ -1,0 +1,53 @@
+-2.05.43	always #5 clk =~clk
+-2.03.31	
+module tb_alu;
+	logic clk = 0;
+	logic [3:0] a, b;
+	logic [1:0] op;
+	logic [3:0] result;
+			
+	alu dut(.clk(clk), .a(a), .b(b), .op(op), .result(result));
+endmodule
+
+initial clk = 0;
+always #5 clk = ~clk
+
+//16-34
+
+initial begin
+	a=4'd5; b=4'd3, op=2'b00;
+	@(posedge clk); #1;
+	a=4'd7; b=4'd2, op=2'b01;
+	@(posedge clk); #1;
+	$finish;
+end
+
+//27-22
+$display("a=%d b=%d result=%d, a, b, result);
+
+//task	31:00
+
+task automatic check_alu(
+	input [3:0] a_val, b_val, expected,
+	input [1:0] op_val, input string name);
+	a= a_val, b=b_val, op=op_val;
+	@(posedge clk); #1;
+	if (result === expected)
+		$display("PASS: %s", name);
+	else
+		$display("FAIL: %s, exp=%d got=%d". name, expected, result);
+endtask
+
+//$fopen/$fscanf
+
+// assert (result === expected)
+	else $error ("FAIL: exp=%d got=%d", expected, ersult)
+
+//xvlog tb_alu.sv alu.sv
+xelab tb_alu -s tb_sim
+xsim tb_sim -R
+
+
+C:\AMDDesignTools\2026.1\Vivado\bin\xvlog.bat -sv counter.sv Counter.srcs\sim_1\new\tb_counter.v
+	
+C:\AMDDesignTools\2026.1\Vivado\bin\xsim.bat counter_sim -runall
