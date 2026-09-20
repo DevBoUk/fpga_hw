@@ -1,0 +1,1080 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 01-sep-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sun Sep 20 12:31:27 2026
+# Process ID         : 8632
+# Current directory  : C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter
+# Command line       : vivado.exe
+# Log file           : C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/vivado.log
+# Journal file       : C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter\vivado.jou
+# Running On         : GoGo
+# Platform           : Windows 11
+# Operating System   : 22631
+# Processor Detail   : AMD Ryzen 5 5600H with Radeon Graphics         
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16541 MB
+# Swap memory        : 4563 MB
+# Total Virtual      : 21105 MB
+# Available Virtual  : 9037 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2026.1/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1752.922 ; gain = 224.059
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation  -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 18:53:43 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/AMDDesignTools/2026.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_counter' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.tb_counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_counter_behav
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'elaborate' step aborted
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1761.145 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+launch_simulation
+Command: launch_simulation  -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 18:53:59 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/AMDDesignTools/2026.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_counter' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sources_1/new/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.tb_counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_counter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_counter_behav -key {Behavioral:sim_1:Functional:tb_counter} -tclbatch {tb_counter.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_counter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[6000 ns] FAILED: count= 0, expected =4'd10
+$finish called at time : 6 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 84
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_counter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1775.820 ; gain = 14.676
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run all
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[6000 ns] FAILED: count= 0, expected =4'd10
+$finish called at time : 6 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 84
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 18:56:53 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/AMDDesignTools/2026.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_counter' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sources_1/new/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 18:56:55 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.tb_counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_counter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] FAILED: count= 2, expected =4'd10
+$finish called at time : 16 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 85
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1775.820 ; gain = 0.000
+run all
+The current simulation has finished. Please use 'restart' to begin a new simulation.
+$finish called at time : 16 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 85
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 18:58:09 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sources_1/new/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 18:58:10 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.tb_counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_counter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+$finish called at time : 16 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 85
+run 100 ns
+The current simulation has finished. Please use 'restart' to begin a new simulation.
+$finish called at time : 16 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 85
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:05:55 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sources_1/new/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:05:56 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.tb_counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_counter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+[46000 ns]     FAILED: count= 10, expected =13
+$finish called at time : 46 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 99
+run all
+The current simulation has finished. Please use 'restart' to begin a new simulation.
+$finish called at time : 46 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 99
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run all
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+[46000 ns]     FAILED: count= 10, expected =13
+$finish called at time : 46 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 99
+add_bp {C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v} 90
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run all
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+[46000 ns]     FAILED: count= 10, expected =13
+$finish called at time : 46 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 99
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:08:07 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sources_1/new/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:08:08 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.tb_counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_counter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+Stopped at time : 46 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 90
+run all
+[46000 ns]     PASS: count= 13, expected =13
+$finish called at time : 46 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 100
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run all
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+Stopped at time : 46 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 90
+remove_bps -file {C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v} -line 90
+run all
+[46000 ns]     PASS: count= 13, expected =13
+$finish called at time : 46 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 100
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:09:12 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sources_1/new/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+ERROR: [VRFC 10-4982] syntax error near ';' [C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v:103]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:09:25 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sources_1/new/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:09:27 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot counter_behav xil_defaultlib.counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot counter_behav xil_defaultlib.counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot counter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+[46000 ns]     PASS: count= 13, expected =13
+$finish called at time : 46 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 100
+run all
+The current simulation has finished. Please use 'restart' to begin a new simulation.
+$finish called at time : 46 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 100
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run all
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+[46000 ns]     PASS: count= 13, expected =13
+$finish called at time : 46 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 100
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:10:51 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sources_1/new/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:10:52 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.tb_counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_counter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+[46000 ns]     PASS: count= 13, expected =13
+[76000 ns]     PASS: count= 0, expected =0
+$finish called at time : 77 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 110
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run all
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+[46000 ns]     PASS: count= 13, expected =13
+[76000 ns]     PASS: count= 0, expected =0
+$finish called at time : 77 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 110
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:14:35 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sources_1/new/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:14:36 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.tb_counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_counter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+[46000 ns]     PASS: count= 13, expected =13
+[76000 ns]     PASS: count= 0, expected =0
+[96000 ns]     PASS: count= 0, expected =0
+$finish called at time : 96 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 122
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run all
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+[46000 ns]     PASS: count= 13, expected =13
+[76000 ns]     PASS: count= 0, expected =0
+[96000 ns]     PASS: count= 0, expected =0
+$finish called at time : 96 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 122
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:16:40 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sources_1/new/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:16:41 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.tb_counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_counter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+[46000 ns]     PASS: count= 13, expected =13
+[76000 ns]     PASS: count= 0, expected =0
+[96000 ns]     PASS: count= 0, expected =0
+[106000 ns]     FAILED: count= 0, expected =15
+$finish called at time : 106 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 131
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:17:07 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sources_1/new/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:17:08 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.tb_counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_counter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+[46000 ns]     PASS: count= 13, expected =13
+[76000 ns]     PASS: count= 0, expected =0
+[96000 ns]     PASS: count= 0, expected =0
+[106000 ns]     PASS: count= 15, expected =15
+$finish called at time : 106 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 131
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:17:53 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sources_1/new/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:17:54 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.tb_counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_counter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+[46000 ns]     PASS: count= 13, expected =13
+[76000 ns]     PASS: count= 0, expected =0
+[96000 ns]     PASS: count= 0, expected =0
+[106000 ns]     PASS: count= 15, expected =15
+$finish called at time : 106 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 131
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:22:45 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sources_1/new/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:23:03 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 19:23:04 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.tb_counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_counter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+[46000 ns]     PASS: count= 13, expected =13
+[76000 ns]     PASS: count= 0, expected =0
+[96000 ns]     PASS: count= 0, expected =0
+[106000 ns]     PASS: count= 15, expected =15
+[116000 ns]     PASS: count= 5, expected =5
+$finish called at time : 116 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 143
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run all
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] PASS: count= 10, expected =4'd10
+[46000 ns]     PASS: count= 13, expected =13
+[76000 ns]     PASS: count= 0, expected =0
+[96000 ns]     PASS: count= 0, expected =0
+[106000 ns]     PASS: count= 15, expected =15
+[116000 ns]     PASS: count= 5, expected =5
+$finish called at time : 116 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 143
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 20:53:19 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sources_1/new/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+WARNING: [VRFC 10-333] assigning a packed type to a string requires a cast [C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v:124]
+ERROR: [VRFC 10-8616] 'check_count' requires 3 arguments [C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v:124]
+ERROR: [VRFC 10-8530] module 'tb_counter' is ignored due to previous errors [C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sim_1\new\tb_counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.srcs\sources_1\new\counter.sv:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 20:53:39 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sources_1/new/counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_counter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 20:53:41 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2989] 'stop' is not declared [C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v:66]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 20:54:08 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 20:54:09 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2989] 'stop' is not declared [C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v:66]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 20:54:58 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_counter_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sun Sep 20 20:54:59 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_counter'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_counter_behav xil_defaultlib.tb_counter xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2989] 'stop' is not declared [C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v:66]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+

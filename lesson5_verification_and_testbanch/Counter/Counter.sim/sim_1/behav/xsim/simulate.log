@@ -1,0 +1,19 @@
+Time resolution is 1 ps
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] - p.3 - signal Load test,  - PASS: count=10, expected=10
+[46000 ns] - p.4 - Up Counter Verify 1st stage,  - PASS: count=13, expected=13
+[76000 ns] - p.4 - Up Counter Verify 2nd stage,  - PASS: count=0, expected=0
+[96000 ns] - p.5 - en=0 latch output verifier,  - PASS: count=0, expected=0
+[106000 ns] - p.6 - down counter verifier,  - PASS: count=15, expected=15
+[116000 ns] - p.7 - Prority load vs en. Who is the boss???,  - PASS: count=5, expected=5
+$finish called at time : 116 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 99
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] - p.3 - signal Load test,  - PASS: count=10, expected=10
+[46000 ns] - p.4 - Up Counter Verify 1st stage,  - PASS: count=13, expected=13
+[76000 ns] - p.4 - Up Counter Verify 2nd stage,  - PASS: count=0, expected=0
+[96000 ns] - p.5 - en=0 latch output verifier,  - PASS: count=0, expected=0
+[106000 ns] - p.6 - down counter verifier,  - PASS: count=15, expected=15
+[116000 ns] - p.7 - Prority load vs en. Who is the boss???,  - PASS: count=5, expected=5
+$finish called at time : 116 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 99

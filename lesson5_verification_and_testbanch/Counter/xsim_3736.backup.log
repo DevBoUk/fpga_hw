@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# xsim v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sat Sep 19 13:24:52 2026
+# Process ID         : 3736
+# Current directory  : C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter
+# Command line       : xsim.exe -mode tcl -source {xsim.dir/counter_sim/xsim_script.tcl}
+# Log file           : C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/xsim.log
+# Journal file       : C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter\xsim.jou
+# Running On         : GoGo
+# Platform           : Windows 11
+# Operating System   : 22631
+# Processor Detail   : AMD Ryzen 5 5600H with Radeon Graphics         
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16541 MB
+# Swap memory        : 4563 MB
+# Total Virtual      : 21105 MB
+# Available Virtual  : 7690 MB
+#-----------------------------------------------------------
+source xsim.dir/counter_sim/xsim_script.tcl
+# xsim {counter_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[26000 ns] FAIL: rst=0; load=0; data_in = 4'haighz1; en=1; up_down=1 -> expected =1 got (0x 3, 0x3)
+$finish called at time : 26 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 76
+exit
+INFO: [Common 17-206] Exiting xsim at Sat Sep 19 13:24:53 2026...

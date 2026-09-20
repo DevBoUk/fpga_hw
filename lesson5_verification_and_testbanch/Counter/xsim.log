@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# xsim v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sun Sep 20 21:10:55 2026
+# Process ID         : 23920
+# Current directory  : C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter
+# Command line       : xsim.exe -mode tcl -source {xsim.dir/counter_sim/xsim_script.tcl}
+# Log file           : C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/xsim.log
+# Journal file       : C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter\xsim.jou
+# Running On         : GoGo
+# Platform           : Windows 11
+# Operating System   : 22631
+# Processor Detail   : AMD Ryzen 5 5600H with Radeon Graphics         
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16541 MB
+# Swap memory        : 4563 MB
+# Total Virtual      : 21105 MB
+# Available Virtual  : 7209 MB
+#-----------------------------------------------------------
+source xsim.dir/counter_sim/xsim_script.tcl
+# xsim {counter_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+ [0 ns] BEFORE reset: counter = 0000<-X state, count_reg has no value yet 
+[6000 ns] AFTER reset: count = 0
+[16000 ns] - p.3 - signal Load test,  - PASS: count=10, expected=10
+[46000 ns] - p.4 - Up Counter Verify 1st stage,  - PASS: count=13, expected=13
+[76000 ns] - p.4 - Up Counter Verify 2nd stage,  - PASS: count=0, expected=0
+[96000 ns] - p.5 - en=0 latch output verifier,  - PASS: count=0, expected=0
+[106000 ns] - p.6 - down counter verifier,  - PASS: count=15, expected=15
+[116000 ns] - p.7 - Prority load vs en. Who is the boss???,  - PASS: count=5, expected=5
+$finish called at time : 116 ns : File "C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.srcs/sim_1/new/tb_counter.v" Line 99
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Sep 20 21:10:57 2026...

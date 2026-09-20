@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Sep 16 00:16:49 2026
+# Process ID         : 9968
+# Current directory  : C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent11036 C:\Users\Dev\Desktop\git\fpga_hw\lesson5_verification_and_testbanch\Counter\Counter.xpr
+# Log file           : C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/vivado.log
+# Journal file       : C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter\vivado.jou
+# Running On         : GoGo
+# Platform           : Windows 11
+# Operating System   : 22631
+# Processor Detail   : AMD Ryzen 5 5600H with Radeon Graphics         
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16541 MB
+# Swap memory        : 4563 MB
+# Total Virtual      : 21105 MB
+# Available Virtual  : 13678 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dev/Desktop/git/fpga_hw/lesson5_verification_and_testbanch/Counter/Counter.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source counter.tcl
+add_force {/counter/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/counter/rst} -radix hex {0 0ns}
+add_force {/counter/load} -radix hex {0 0ns}
+add_force {/counter/data_in} -radix hex {0xa 0ns}
+add_force {/counter/en} -radix hex {1 0ns}
+add_force {/counter/up_down} -radix hex {0 0ns}
+run all
+restart
+run all
+add_force {/counter/up_down} -radix hex {1 0ns}
+restart
+run all
+restart
+run all
+relaunch_sim
+add_force {/counter/clk} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/counter/rst} -radix hex {0 0ns}
+add_force {/counter/load} -radix hex {0 0ns}
+add_force {/counter/data_in} -radix hex {0xa 0ns}
+add_force {/counter/en} -radix hex {0 0ns}
+add_force {/counter/en} -radix hex {0 0ns}
+add_force {/counter/up_down} -radix hex {1 0ns}
+run all
+restart
+run all
+add_force {/counter/en} -radix hex {1 0ns}
+restart
+run all
+add_force {/counter/load} -radix hex {1 0ns}
+restart
+run all
+restart
+run all
+add_force {/counter/load} -radix hex {1 0ns}
+run all
+add_force {/counter/rst} -radix hex {1 0ns}
+run all
+relaunch_sim
